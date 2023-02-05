@@ -1,6 +1,7 @@
 from ting_file_management.abstract_queue import AbstractQueue
 # 1 - Implemente uma fila para armazenar os arquivos que serão lidos.
 
+
 class Queue(AbstractQueue):
     def __init__(self):
         self.queue = []
@@ -22,4 +23,3 @@ class Queue(AbstractQueue):
             raise IndexError()
         else:
             return self.queue[index]
-    
