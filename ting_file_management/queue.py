@@ -18,6 +18,6 @@ class Queue:
 
     def search(self, index):
         if index < 0 or index >= len(self.queue):
-            raise IndexError()
+            raise IndexError('Posição inválida')
         else:
             return self.queue[index]
