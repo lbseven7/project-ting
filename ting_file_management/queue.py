@@ -1,8 +1,6 @@
-from ting_file_management.abstract_queue import AbstractQueue
 # 1 - Implemente uma fila para armazenar os arquivos que serão lidos.
 
-
-class Queue(AbstractQueue):
+class Queue:
     def __init__(self):
         self.queue = []
 
